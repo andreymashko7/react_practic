@@ -5,6 +5,7 @@ import Section from './components/Sections';
 export default function App() {
   return (
     <div>
+      <h2></h2>
       <Section title="Топ недели">
         <PaintingList items={paintings} />
       </Section>
