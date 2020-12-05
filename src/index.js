@@ -1,15 +1,12 @@
-import ReactDOOM from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import App from './App';
-// import React from 'react';
-// import './index.css';
+// // import 'modern-normalize/modern-normalize.css';
+// // import './styles.css';
 
-ReactDOOM.render(<App />, document.querySelector('#root'));
-
-// ================================================================================
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root'),
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
